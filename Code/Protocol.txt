@@ -1,0 +1,31 @@
+This document shall be a datasheet for the different signs that will be sent between the Arduino and the Computer.
+The aim is, to consult this reference during development in order to achieve consistency
+
+CHARACTERS SENT FROM THE COMPUTER TO THE ARDUINO:
+
+char    purpose
+X       In the following game you need to draw Xs
+O       In the following game you need to draw Os
+F       Draw the field  
+E       Erase everything
+W       The player wins - draw happy smiley
+L       The player looses - draw unhappy smiley
+D       Draw - Draw indifferent smiley
+1       Draw computer symbol into lower left corner
+2       Draw computer symbol into lower middle field
+3       Draw computer symbol into lower right corner
+4       Draw computer symbol into middle left field
+5       Draw computer symbol into middle field
+6       Draw computer symbol into middle right field
+7       Draw computer symbol into upper left corner
+8       Draw computer symbol into upper middle field
+9       Draw computer symbol into upper right corner
+
+
+
+
+CHARACTERS SENT FROM THE ARDUINO TO THE COMPUTER
+
+char    purpose
+A       acknowledge of the order (presumably not necessary)
+R       Ready for next command!
